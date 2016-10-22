@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925BABEA1DBA06F90004F7CC /* BulletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BABE81DBA06F90004F7CC /* BulletView.swift */; };
+		925BABEB1DBA06F90004F7CC /* PlayDanmuTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BABE91DBA06F90004F7CC /* PlayDanmuTool.swift */; };
 		929F8C071DB758C8006988BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F8C061DB758C8006988BB /* AppDelegate.swift */; };
 		929F8C091DB758C8006988BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F8C081DB758C8006988BB /* ViewController.swift */; };
-		929F8C0C1DB758C8006988BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929F8C0A1DB758C8006988BB /* Main.storyboard */; };
 		929F8C0E1DB758C8006988BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929F8C0D1DB758C8006988BB /* Assets.xcassets */; };
 		929F8C111DB758C8006988BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929F8C0F1DB758C8006988BB /* LaunchScreen.storyboard */; };
 		929F8C1C1DB758C8006988BB /* dangmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F8C1B1DB758C8006988BB /* dangmuTests.swift */; };
@@ -34,10 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		925BABE81DBA06F90004F7CC /* BulletView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletView.swift; sourceTree = "<group>"; };
+		925BABE91DBA06F90004F7CC /* PlayDanmuTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayDanmuTool.swift; sourceTree = "<group>"; };
 		929F8C031DB758C8006988BB /* dangmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dangmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929F8C061DB758C8006988BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929F8C081DB758C8006988BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		929F8C0B1DB758C8006988BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		929F8C0D1DB758C8006988BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929F8C101DB758C8006988BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929F8C121DB758C8006988BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		925BABE71DBA06F90004F7CC /* bulletView */ = {
+			isa = PBXGroup;
+			children = (
+				925BABE91DBA06F90004F7CC /* PlayDanmuTool.swift */,
+				925BABE81DBA06F90004F7CC /* BulletView.swift */,
+			);
+			path = bulletView;
+			sourceTree = "<group>";
+		};
 		929F8BFA1DB758C8006988BB = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +110,7 @@
 			children = (
 				929F8C061DB758C8006988BB /* AppDelegate.swift */,
 				929F8C081DB758C8006988BB /* ViewController.swift */,
-				929F8C0A1DB758C8006988BB /* Main.storyboard */,
+				925BABE71DBA06F90004F7CC /* bulletView */,
 				929F8C0D1DB758C8006988BB /* Assets.xcassets */,
 				929F8C0F1DB758C8006988BB /* LaunchScreen.storyboard */,
 				929F8C121DB758C8006988BB /* Info.plist */,
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					929F8C021DB758C8006988BB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q7DKPNHWWA;
 						ProvisioningStyle = Automatic;
 					};
 					929F8C161DB758C8006988BB = {
@@ -234,7 +246,6 @@
 			files = (
 				929F8C111DB758C8006988BB /* LaunchScreen.storyboard in Resources */,
 				929F8C0E1DB758C8006988BB /* Assets.xcassets in Resources */,
-				929F8C0C1DB758C8006988BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925BABEA1DBA06F90004F7CC /* BulletView.swift in Sources */,
 				929F8C091DB758C8006988BB /* ViewController.swift in Sources */,
 				929F8C071DB758C8006988BB /* AppDelegate.swift in Sources */,
+				925BABEB1DBA06F90004F7CC /* PlayDanmuTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		929F8C0A1DB758C8006988BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				929F8C0B1DB758C8006988BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		929F8C0F1DB758C8006988BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q7DKPNHWWA;
 				INFOPLIST_FILE = dangmu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.zhouxu.dangmu;
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q7DKPNHWWA;
 				INFOPLIST_FILE = dangmu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.zhouxu.dangmu;
@@ -503,6 +510,7 @@
 				929F8C2D1DB758C8006988BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		929F8C2E1DB758C8006988BB /* Build configuration list for PBXNativeTarget "dangmuTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +519,7 @@
 				929F8C301DB758C8006988BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		929F8C311DB758C8006988BB /* Build configuration list for PBXNativeTarget "dangmuUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				929F8C331DB758C8006988BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

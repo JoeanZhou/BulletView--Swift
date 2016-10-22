@@ -20,7 +20,7 @@ class BulletView: UIView, CAAnimationDelegate {
     
     //  bulletView的飞入状态
     public var bulletViewMoveStateBlock : BulletViewMoveStateBlock?
-    public var trajectory : MoveState?  //  弹道
+    public var trajectory : Int?  //  弹道
     
     private let lableHeight : CGFloat = 20
     private let magin : CGFloat = 10
