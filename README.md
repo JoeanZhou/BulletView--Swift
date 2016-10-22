@@ -43,3 +43,5 @@ tool.excuceBullet(displayView: moveView, datasource: ["按房间按对法的奶�
 
 
 具体的请看Demo 详解
+
+![image](https://github.com/JoeanZhou/--Swift/blob/master/danmuGIF.gif)
