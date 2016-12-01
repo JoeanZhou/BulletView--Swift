@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // 实例化
     let tool = PlayDanmuTool()
     let moveView : UIView = UIView()
     let button:UIButton = UIButton(type:.custom)
